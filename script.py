@@ -1,5 +1,7 @@
- #ceci est un fichier python
- print('blabla')
+import pandas as pd 
 
 
- # ceci est une ligne rajoutée par moi
+def conv_euro_xof(nb:float):
+    conv = nb * 655.957
+    return print(f"{nb}€ -->  {conv} FCFA")
+
