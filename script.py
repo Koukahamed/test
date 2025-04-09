@@ -11,3 +11,5 @@ def somme(x:int, y:int):
     return print(f"la somme de {x} + {y} est : ", x+y)
 
 somme(12, 34)
+
+conv_euro_xof(35)
